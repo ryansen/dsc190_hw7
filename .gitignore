@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+dist/
+build/
+
+# DVC-managed outputs (tracked by DVC, not git)
+data/clean/
+data/transformed/
+data/features/
+
+# DVC internal cache
+.dvc/cache/
+.dvc/tmp/
+
+# uv
+.uv/
+
+# OS
+.DS_Store
+Thumbs.db

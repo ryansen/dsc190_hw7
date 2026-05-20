@@ -1,0 +1,15 @@
+[project]
+name = "assignment07"
+version = "0.1.0"
+description = "Reproducible Data Pipelines with DVC and Marimo"
+requires-python = ">=3.11"
+dependencies = [
+    "dvc>=3.0.0",
+    "marimo>=0.7.0",
+    "pandas>=2.0.0",
+    "matplotlib>=3.7.0",
+    "altair>=5.0.0",
+]
+
+[tool.uv]
+dev-dependencies = []
